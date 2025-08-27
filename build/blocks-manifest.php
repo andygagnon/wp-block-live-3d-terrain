@@ -1,0 +1,28 @@
+<?php
+// This file is generated. Do not modify it manually.
+return array(
+	'live-3d-terrain-aag' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'live-3d-terrain-aag/live-3d-terrain-aag',
+		'version' => '1.0.0',
+		'title' => 'Live 3D Terrain AAG',
+		'category' => 'media',
+		'icon' => 'align-wide',
+		'description' => 'A block that generates an interactive 3D terrain from a data source.',
+		'attributes' => array(
+			'title' => array(
+				'type' => 'string',
+				'default' => 'Live 3D Terrain'
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'align' => true
+		),
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'viewScript' => 'file:./view.js'
+	)
+);

@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied inside the editor only.
+ * We'll style the placeholder for our 3D canvas here.
+ */
+
+.live-3d-terrain-aag__canvas-container {
+	position: relative;
+	width: 100%;
+	min-height: 400px; // A minimum height for the editor canvas.
+	background-color: #333; // Dark background to visualize the scene.
+	border: 2px dashed #999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.live-3d-terrain-aag__canvas {
+		width: 100%;
+		height: 100%;
+	}
+}
