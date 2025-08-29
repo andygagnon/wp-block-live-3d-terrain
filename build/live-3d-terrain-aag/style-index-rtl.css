@@ -22,6 +22,7 @@
   top: 20px;
   right: 50%;
   transform: translateX(50%);
+  display: none;
 }
 .wp-block-live-3d-terrain-aag-live-3d-terrain-aag .live-3d-terrain-aag__canvas-container {
   position: absolute;

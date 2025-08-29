@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const img = new Image();
         img.crossOrigin = "anonymous";
         img.src = 'https://picsum.photos/2048/2048'; // Using a placeholder for a 2048x2048 image. Replace with your actual image path.
-		img.src = 'https://cb.lndo.site/wp-content/uploads/2025/08/mt-fuji-heightmap.png'; // Using a placeholder for a 2048x2048 image. Replace with your actual image path.
+		img.src = '/wp-content/uploads/2025/08/mt-fuji-heightmap.png'; // Using a placeholder for a 2048x2048 image. Replace with your actual image path.
 
         img.onload = () => {
             const canvas = document.createElement('canvas');
