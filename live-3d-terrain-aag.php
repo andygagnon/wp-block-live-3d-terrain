@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Live 3d Terrain AAG
+ * Plugin Name:       Live 3d Terrain - AAG
  * Description:       Demo of live 3D terrain block.
  * Version:           0.1.0
  * Requires at least: 6.7
